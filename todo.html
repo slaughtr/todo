@@ -1,0 +1,44 @@
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" title="no title">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>To Do List</title>
+</head>
+<body>
+  <div class="container">
+        <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
+        <h1>To Do List</h1>
+        <h2>Track things you are procrastinating on:</h2>
+        <form id="new-task">
+          <div class="form-group">
+            <label for="list"></label>
+            <input type="text" class="form-control" id="todoItem" required>
+          </div>
+          <button type="submit" class="btn">Add</button>
+        </form>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-4">
+        <h2>To Do</h2>
+        <ul id="active"></ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Finished Items</h2>
+        <ul id="finished"></ul>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
